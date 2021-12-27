@@ -1,0 +1,10 @@
+.vscode/
+__pycache__/
+build/
+dist/
+.env
+creds.txt
+InventoryBots.spec
+InventoryBots.py
+helper.py
+memo.txt
