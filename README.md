@@ -35,22 +35,21 @@ The tool can be run on the following OS:
       pip install -r requirements.txt
       ```
 
-# configuration
+# Configuration
 
-Step#1<br>
-DEC limit can set in ``.env`` file. <br>
-Enter Splinterlands account credentials in the format (one account - one line) in creds.txt: <br>
-<ul>
-  <li><code>MainAccount,posting_key,active_key</code></li>
-  <li><code>Account1,posting_key,active_key</code></li>
-  <li><code>Account2,posting_key,active_key</code></li>
-   <li><code>...</code></li>
-</ul>
+1.  DEC limit can set in ``.env`` file. <br>
 
-Step#2<br>
-Download "chrome" driver. <br>
-https://chromedriver.chromium.org/ <br>
-Copy the <code>chromedriver.exe</code> to the bot folder.
+2.  Enter Splinterlands account credentials in the format (one account - one line) in creds.txt: <br>
+    <ul>
+      <li><code>MainAccount,posting_key,active_key</code></li>
+      <li><code>Account1,posting_key,active_key</code></li>
+      <li><code>Account2,posting_key,active_key</code></li>
+      <li><code>...</code></li>
+    </ul>
+
+3. Download "chrome" driver. <br>
+    https://chromedriver.chromium.org/ <br>
+    Copy the <code>chromedriver.exe</code> to the bot folder.
 
 # How to use
 
@@ -63,7 +62,7 @@ git pull
 Go into the Splinterlands-Inventory-Bots-v2 directory and run the command with the file. Examples:
 
 ```sh
-python InventoryBots.pyc
+python InventoryBots.cpython-39.pyc
 ```
 
 # Discord
